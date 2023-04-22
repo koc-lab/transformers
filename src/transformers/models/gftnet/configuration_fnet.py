@@ -98,7 +98,7 @@ class FNetConfig(PretrainedConfig):
         type_vocab_size=4,
         initializer_range=0.02,
         layer_norm_eps=1e-12,
-        use_tpu_fourier_optimizations=False,
+        use_tpu_fourier_optimizations=True,
         tpu_short_seq_length=512,
         pad_token_id=3,
         bos_token_id=1,
